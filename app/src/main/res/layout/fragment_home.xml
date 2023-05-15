@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="20pt"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textColor="#2196F3"
+            android:id="@+id/mTvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WELCOME TO MEDIC HOSPITAL" />
+
+        <TextView
+            android:id="@+id/mTvContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20pt"
+            android:paddingLeft="15dp"
+            android:text="Medic Hospital conducts numerous major and minor surgeries and draws together faculty and staff from several departments to enhance patient care and research."
+            android:textColor="#013FB1"
+            android:textSize="25sp"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/images" />
+    </LinearLayout>
+</ScrollView>
