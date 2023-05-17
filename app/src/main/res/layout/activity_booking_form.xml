@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/india"
+    tools:context=".BookingForm">
+
+    <TextView
+        android:id="@+id/mTvIntro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="Fill the forms below our assistant will get in touch with you"
+        android:textColor="#191817"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/mTvBkName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Enter Full Name"
+        android:inputType="text"
+        android:textColor="#213DF3"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mTvIntro" />
+
+    <EditText
+        android:id="@+id/mTvBkPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:hint="Enter Phone Number"
+        android:inputType="phone"
+        android:textColor="#213DF3"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="@+id/mTvBkName"
+        app:layout_constraintTop_toBottomOf="@+id/mTvBkName" />
+
+    <EditText
+        android:id="@+id/mTvBkEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress"
+        android:textColor="#213DF3"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="@+id/mTvBkPhone"
+        app:layout_constraintTop_toBottomOf="@+id/mTvBkPhone" />
+
+    <Button
+        android:id="@+id/BtnBkSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:text="Submit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mTvBkEmail" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
