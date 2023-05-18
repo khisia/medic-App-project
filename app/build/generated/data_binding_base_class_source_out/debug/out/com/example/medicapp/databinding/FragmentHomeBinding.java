@@ -29,12 +29,16 @@ public final class FragmentHomeBinding implements ViewBinding {
   @NonNull
   public final TextView mTvTitle;
 
+  @NonNull
+  public final TextView mTxtLearn;
+
   private FragmentHomeBinding(@NonNull ScrollView rootView, @NonNull ImageView imageView,
-      @NonNull TextView mTvContent, @NonNull TextView mTvTitle) {
+      @NonNull TextView mTvContent, @NonNull TextView mTvTitle, @NonNull TextView mTxtLearn) {
     this.rootView = rootView;
     this.imageView = imageView;
     this.mTvContent = mTvContent;
     this.mTvTitle = mTvTitle;
+    this.mTxtLearn = mTxtLearn;
   }
 
   @Override
@@ -82,7 +86,14 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentHomeBinding((ScrollView) rootView, imageView, mTvContent, mTvTitle);
+      id = R.id.mTxtLearn;
+      TextView mTxtLearn = ViewBindings.findChildViewById(rootView, id);
+      if (mTxtLearn == null) {
+        break missingId;
+      }
+
+      return new FragmentHomeBinding((ScrollView) rootView, imageView, mTvContent, mTvTitle,
+          mTxtLearn);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="http://schemas.android.com/tools">
     <string-array name="PEOPLE">
-    <item>Medical</item>
-    <item>Surgical</item>
-    <item>Diagnostics</item>
-    <item>Pharmaceutical</item>
-    <item>Nursing School</item>
-    <item>Blood Donation</item>
+        <item>Medical</item>
+        <item>Surgical</item>
+        <item>Diagnostics</item>
+        <item>Pharmaceutical</item>
+        <item>Nursing School</item>
+        <item>Blood Donation</item>
     </string-array>
     <color name="black">#FF000000</color>
     <color name="purple_200">#FFBB86FC</color>
@@ -26,9 +26,10 @@
     <item name="ic_menu_send" type="drawable">@android:drawable/ic_menu_send</item>
     <item name="ic_menu_share" type="drawable">@android:drawable/ic_menu_share</item>
     <item name="ic_menu_slideshow" type="drawable">@android:drawable/ic_menu_slideshow</item>
+    <string name="action_ambulance">Book An Ambulance</string>
+    <string name="action_doctor">Book Doctor</string>
     <string name="action_login">Login</string>
     <string name="action_register">Register</string>
-    <string name="action_settings">Settings</string>
     <string name="app_name">Medic App</string>
     <string name="default_web_client_id" translatable="false">772005058866-tj9d97midmp724rce2cmslekfj8jndcs.apps.googleusercontent.com</string>
     <string name="gcm_defaultSenderId" translatable="false">772005058866</string>

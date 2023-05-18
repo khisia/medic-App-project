@@ -33,6 +33,15 @@
         android:testOnly="true"
         android:theme="@style/Theme.MedicApp" >
         <activity
+            android:name="com.example.medicapp.BookAmbulance"
+            android:exported="false" />
+        <activity
+            android:name="com.example.medicapp.BookingForm"
+            android:exported="false" />
+        <activity
+            android:name="com.example.medicapp.BookDoctor"
+            android:exported="false" />
+        <activity
             android:name="com.example.medicapp.LoginActivity"
             android:exported="false" />
         <activity

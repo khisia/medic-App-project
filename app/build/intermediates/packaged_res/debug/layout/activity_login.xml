@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/india"
     tools:context=".LoginActivity">
 
     <EditText
@@ -15,7 +16,7 @@
         android:ems="10"
         android:hint="Enter Email"
         android:inputType="textEmailAddress"
-        android:textColorHint="#F44336"
+        android:textColorHint="#673AB7"
         android:textSize="20dp"
         app:layout_constraintBottom_toTopOf="@+id/mTvLogPassword"
         app:layout_constraintEnd_toEndOf="@+id/mTvLogPassword" />
@@ -27,7 +28,7 @@
         android:ems="10"
         android:hint="Enter Password"
         android:inputType="textPassword"
-        android:textColorHint="#F44336"
+        android:textColorHint="#673AB7"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

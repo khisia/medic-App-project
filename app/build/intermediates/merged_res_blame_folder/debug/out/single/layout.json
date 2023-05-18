@@ -20,8 +20,12 @@
         "source": "com.example.medicapp-main-53:/layout/app_bar_main.xml"
     },
     {
-        "merged": "com.example.medicapp-mergeDebugResources-50:/layout/fragment_gallery.xml",
-        "source": "com.example.medicapp-main-53:/layout/fragment_gallery.xml"
+        "merged": "com.example.medicapp-mergeDebugResources-50:/layout/activity_booking_form.xml",
+        "source": "com.example.medicapp-main-53:/layout/activity_booking_form.xml"
+    },
+    {
+        "merged": "com.example.medicapp-mergeDebugResources-50:/layout/activity_book_doctor.xml",
+        "source": "com.example.medicapp-main-53:/layout/activity_book_doctor.xml"
     },
     {
         "merged": "com.example.medicapp-mergeDebugResources-50:/layout/activity_login.xml",
@@ -34,5 +38,9 @@
     {
         "merged": "com.example.medicapp-mergeDebugResources-50:/layout/content_main.xml",
         "source": "com.example.medicapp-main-53:/layout/content_main.xml"
+    },
+    {
+        "merged": "com.example.medicapp-mergeDebugResources-50:/layout/activity_book_ambulance.xml",
+        "source": "com.example.medicapp-main-53:/layout/activity_book_ambulance.xml"
     }
 ]

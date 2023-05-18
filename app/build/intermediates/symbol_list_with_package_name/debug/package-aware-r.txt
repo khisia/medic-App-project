@@ -2510,8 +2510,11 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable ambulance
+drawable ambulancebackg
 drawable avd_hide_password
 drawable avd_show_password
+drawable backgimage
 drawable baseline_call_24
 drawable baseline_home_24
 drawable btn_checkbox_checked_mtrl
@@ -2565,8 +2568,10 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable iconyangu
 drawable images
 drawable index
+drawable india
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
 drawable m3_radiobutton_ripple
@@ -2618,6 +2623,7 @@ drawable tooltip_frame_light
 id ALT
 id BOTTOM_END
 id BOTTOM_START
+id BtnBkSubmit
 id CTRL
 id FUNCTION
 id META
@@ -2714,6 +2720,9 @@ id beginOnFirstDraw
 id beginning
 id bestChoice
 id blocking
+id book1
+id book2
+id book3
 id bottom
 id bounce
 id bounceBoth
@@ -2869,6 +2878,9 @@ id locale
 id ltr
 id mBtnLogIn
 id mBtnReg
+id mTvBkEmail
+id mTvBkName
+id mTvBkPhone
 id mTvConfPassword
 id mTvContent
 id mTvEmail
@@ -2881,6 +2893,7 @@ id mTvOrLogin
 id mTvPassword
 id mTvPhone
 id mTvTitle
+id mTxtLearn
 id masked
 id match_constraint
 id match_parent
@@ -3087,7 +3100,6 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
-id text_gallery
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3115,6 +3127,9 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id txtJuma
+id txtWafula
+id txtZipporah
 id unchecked
 id uniform
 id unlabeled
@@ -3226,6 +3241,9 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_book_ambulance
+layout activity_book_doctor
+layout activity_booking_form
 layout activity_login
 layout activity_main
 layout activity_register
@@ -3249,7 +3267,6 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
-layout fragment_gallery
 layout fragment_home
 layout fragment_slideshow
 layout m3_alert_dialog
@@ -3327,6 +3344,7 @@ layout text_view_without_line_height
 menu activity_main_drawer
 menu main
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 navigation mobile_navigation
 plurals mtrl_badge_content_description
@@ -3358,9 +3376,10 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string action_ambulance
+string action_doctor
 string action_login
 string action_register
-string action_settings
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
